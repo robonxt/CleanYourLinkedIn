@@ -18,7 +18,7 @@ www.linkedin.com##span:has-text(Suggested):upward(6)
 www.linkedin.com##span:has-text(Suggested)
 www.linkedin.com##li:has-text(Suggested)
 
-! Remove LinkedIn Recommanded from the feed
-www.linkedin.com##span:has-text(Recommanded):upward(6)
-www.linkedin.com##span:has-text(Recommanded)
-www.linkedin.com##li:has-text(Recommanded)
+! Remove LinkedIn Recommended from the feed
+www.linkedin.com##span:has-text(Recommended):upward(6)
+www.linkedin.com##span:has-text(Recommended)
+www.linkedin.com##li:has-text(Recommended)
