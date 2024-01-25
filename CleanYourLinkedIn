@@ -1,0 +1,24 @@
+! Title: CleanYourLinkedIn
+! Dev: robonxt
+! Description: Adblock filters for LinkedIn. Removes Suggested, Promoted, Expert Answers, and other annoyances.
+! Homepage: https://github.com/robonxt/CleanYourLinkedIn
+! Last updated: January 25, 2024
+
+! How to use: https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web
+
+! Credits: A BIG THANK YOU to the [r/uBlockOrigin](https://www.reddit.com/r/uBlockOrigin/) community for making the internet a safer and cleaner place!
+
+! Remove LinkedIn Promoted from the feed
+www.linkedin.com##span:has-text(Promoted):upward(6)
+www.linkedin.com##span:has-text(Promoted)
+www.linkedin.com##li:has-text(Promoted)
+
+! Remove LinkedIn Suggested from the feed
+www.linkedin.com##span:has-text(Suggested):upward(6)
+www.linkedin.com##span:has-text(Suggested)
+www.linkedin.com##li:has-text(Suggested)
+
+! Remove LinkedIn Recommanded from the feed
+www.linkedin.com##span:has-text(Recommanded):upward(6)
+www.linkedin.com##span:has-text(Recommanded)
+www.linkedin.com##li:has-text(Recommanded)
