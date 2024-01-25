@@ -22,3 +22,8 @@ www.linkedin.com##li:has-text(Suggested)
 www.linkedin.com##span:has-text(Recommended):upward(6)
 www.linkedin.com##span:has-text(Recommended)
 www.linkedin.com##li:has-text(Recommended)
+
+! Remove LinkedIn Jobs Recommended from the feed (purposely removing the first character for broader catching of job recommendations. May remove legit posts as well.
+www.linkedin.com##span:has-text(obs recommende):upward(6)
+www.linkedin.com##span:has-text(obs recommende)
+www.linkedin.com##li:has-text(obs recommende)
